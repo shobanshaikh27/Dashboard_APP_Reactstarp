@@ -1,0 +1,27 @@
+.custom-class {
+    padding: 0.5rem;
+    font-size: 1.25rem;
+    /* Equivalent to text-lg in Tailwind */
+    font-weight: 600;
+    /* Equivalent to font-semibold in Tailwind */
+    background-color: #172554;
+    color: #fff;
+    border-top-left-radius: 0.5rem;
+    /* Equivalent to rounded-t-lg in Tailwind */
+    border-top-right-radius: 0.5rem;
+    /* Equivalent to rounded-t-lg in Tailwind */
+}
+
+.custom-card {
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    background-color: #ffffff;
+    padding: 0 !important;
+}
+
+.cards{
+    border-radius: 1rem !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+    background-color: #ffffff !important;
+    padding: 0 !important;
+}

@@ -1,0 +1,40 @@
+.grid-container {
+    display: grid;
+    gap: 1rem;
+  }
+
+.custom-bg{
+    background: #172252 !important;
+}
+      
+.card-title {
+    font-size: larger !important;;
+    font-weight: bold;
+}
+  .custom-card {
+    width: 75%;
+    margin: 0 auto;
+  }
+  
+  .color-b{
+    color: #fefefe !important;
+  }
+  .color-p{
+    color: #cbd5e1 !important;
+ 
+  }
+  .custom-card .card-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .custom-card .card-info p {
+    font-weight: 600;
+    font-size: 1.25rem;
+  }
+  
+  .custom-card .card-info .text-slate-300 {
+    color: #6b7280;
+  }
+  

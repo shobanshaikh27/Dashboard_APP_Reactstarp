@@ -1,0 +1,51 @@
+/* WorkFlowCards.css */
+.card-hover {
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-hover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.icon-container {
+    background: #172554;
+    width: 25%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    overflow: hidden;
+    border-top-left-radius: 5px; /* Equivalent to rounded-t-lg in Tailwind */
+    border-bottom-left-radius: 5px; /* Equivalent to rounded-t-lg in Tailwind */
+}
+
+.content-container {
+    padding: 16px;
+    flex-grow: 1;
+}
+
+.content-container h5 {
+    margin: 0 0 8px 0;
+}
+
+.content-container p {
+    margin: 0;
+    font-size: 14px;
+    color: gray;
+}
+
+/* .card-description {
+    display: none;
+} */
+
+.card-body{
+    overflow: hidden;
+}
+
+/* @media (min-width: 576px) {
+    .card-description {
+        display: block;
+    }
+} */

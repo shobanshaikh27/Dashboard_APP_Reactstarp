@@ -1,0 +1,32 @@
+.overflow-container{
+  overflow-x: auto;
+}
+
+.nav {
+  display: flex;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.nav-item {
+  margin-bottom: -1px;
+}
+
+.nav-link {
+  padding: 0.5rem 1rem;
+  color: black !important;;
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.nav-link.active {
+  color: #fff !important;
+  background-color: #172554 !important;
+  border-color: #172554 !important;
+} 
+
+/* TabContent styling */
+.tab-content {
+  padding-top:.5rem ;
+}
