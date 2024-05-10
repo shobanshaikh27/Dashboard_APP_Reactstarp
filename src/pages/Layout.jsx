@@ -29,7 +29,7 @@ const Layout = () => {
                         <BS_PieChart />
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 h-100 col-sm-12 rounded-xl shadow-xl bg-white custom-bg-color">
+                    <div className="col-lg-4 col-md-6 h-100 col-sm-12  custom-bg-color">
                     <div className="custom-class">Income and Expense</div>
                     <div className='cards'>
                         <IE_PieChart />
@@ -38,13 +38,13 @@ const Layout = () => {
                     <div className="col-lg-5 col-md-5 col-sm-12">
                         <InvoiceTable />
                     </div>
-                    <div className="col-lg-7 col-md-7 col-sm-12 h-full rounded-xl shadow-xl bg-white custom-bg-color">
+                    <div className="col-lg-7 col-md-7 col-sm-12 h-100 custom-bg-color">
                     <div className="custom-class">Sales and Purchase</div>
                     <div className='cards'>
                         <SP_BarChart />
                         </div>
                     </div>
-                    <div className="col-lg-12 col-md-12 col-sm-12 rounded-xl shadow-xl bg-white custom-bg-color">
+                    <div className="col-lg-12 col-md-12 col-sm-12  custom-bg-color">
                     <div className="custom-class">Bank and Cash Balance</div>
                     <div className='cards'>
                         <BS_LineChart />
